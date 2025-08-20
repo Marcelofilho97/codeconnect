@@ -1,0 +1,16 @@
+a p {
+  font-weight: 400;
+  font-size: 22px;
+  font-family: var(--font);
+  color: var(--cinza-medio);
+  margin: 1em auto .5em;
+  text-align: center;
+  text-decoration: none;
+
+  transition: 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+a p:hover {
+  color: var(--verde-destaque);
+}
